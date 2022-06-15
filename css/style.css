@@ -11,13 +11,52 @@
     height: 100vh;
     position: absolute;
     box-sizing: border-box;
-    padding: 5px;
 }
 
 .navbar {
     background-color: skyblue;
     border: 3px solid black;
-    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar a {
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.navbar button {
+    background-color: skyblue;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+
+#profile {
+    font-size: 50px;
+}
+
+.navleft {
+    background-color: aqua;
+    border: 3px solid black;
+    min-width: 800px;
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navright {
+    background-color: aqua;
+    border: 3px solid black;
+    min-width: 400px;
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .container {
