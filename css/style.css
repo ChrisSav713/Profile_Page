@@ -4,11 +4,70 @@
 }
 
 .main {
-    background: grey;
+    background-color: grey;
     border: 3px solid black;
     min-height: 100%;
     min-width: 100%;
     height: 100vh;
     position: absolute;
     box-sizing: border-box;
+    padding: 5px;
+}
+
+.navbar {
+    background-color: skyblue;
+    border: 3px solid black;
+    min-height: 200px;
+}
+
+.container {
+    background-color: lightgreen;
+    border: 3px solid black;
+    min-height: 800px;
+    display: Flex;
+    justify-content: center;
+}
+
+.leftcolumn {
+    background-color: aqua;
+    border: 3px solid black;
+    min-width: 800px;
+    margin: 30px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightcolumn {
+    background-color: aqua;
+    border: 3px solid black;
+    min-width: 400px;
+    margin: 30px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.usercard {
+    background-color: magenta;
+    border: 3px solid black;
+    min-height: 400px;
+    margin-bottom: 40px;
+}
+
+.education {
+    background-color: indianred;
+    border: 3px solid black;
+    min-height: 200px;
+}
+
+.requests {
+    background-color: goldenrod;
+    border: 3px solid black;
+    min-height: 200px;
+    margin-bottom: 40px;
+}
+
+.connection {
+    background-color: coral;
+    border: 3px solid black;
+    min-height: 300px;
 }
